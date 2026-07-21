@@ -32,7 +32,7 @@
   "author": "Rodolfo González González",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "quill": "^2.0.3",
+		"quill": "2.0.2",
     "svelte": "^5.56.7"
   }
 }

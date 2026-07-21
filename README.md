@@ -25,7 +25,7 @@ the named props don't.
 ## Installation
 
 ```bash
-npm install @rgglez/svelte-quill quill
+npm install @rgglez/svelte-quill quill@2.0.2
 ```
 
 `quill` is a peer dependency — install it alongside.
