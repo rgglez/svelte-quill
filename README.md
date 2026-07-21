@@ -15,6 +15,10 @@ HTML content is exposed via `bind:value`. Every Quill option can be passed as a
 prop, with opinionated defaults; a raw `options` escape hatch covers anything
 the named props don't.
 
+## Preview
+
+You can see the component in action [here](https://codesandbox.io/p/sandbox/m427t4).
+
 ## Requirements
 
 - Svelte 5 runes (`$props` / `$bindable` / `$effect`).
