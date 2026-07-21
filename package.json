@@ -1,6 +1,6 @@
 {
   "name": "@rgglez/svelte-quill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Configurable Svelte 5 wrapper for the Quill 2 rich-text editor.",
   "exports": {
