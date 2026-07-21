@@ -15,10 +15,6 @@ HTML content is exposed via `bind:value`. Every Quill option can be passed as a
 prop, with opinionated defaults; a raw `options` escape hatch covers anything
 the named props don't.
 
-## Preview
-
-You can see the component in action [here](https://codesandbox.io/p/sandbox/m427t4).
-
 ## Requirements
 
 - Svelte 5 runes (`$props` / `$bindable` / `$effect`).
@@ -109,6 +105,13 @@ Escape hatch (raw Quill options + instance access):
 
 Config precedence, from lowest to highest: named props → `modules` (merged over
 `{ toolbar }`) → `options` (spread last, may replace `modules`/`formats`).
+
+## Preview
+
+You can see the component in action
+[here](https://codesandbox.io/p/sandbox/m427t4).
+
+Or you can try the [examples](./examples/).
 
 ## Makefile
 
