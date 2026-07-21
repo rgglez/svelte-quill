@@ -1,0 +1,38 @@
+{
+  "name": "@rgglez/svelte-quill",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Configurable Svelte 5 wrapper for the Quill 2 rich-text editor.",
+  "exports": {
+    ".": {
+      "svelte": "./src/QuillEditor.svelte",
+      "default": "./src/QuillEditor.svelte"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "svelte",
+    "svelte-component",
+    "quill",
+    "wysiwyg",
+    "editor",
+    "rich-text",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgglez/svelte-quill.git"
+  },
+  "homepage": "https://github.com/rgglez/svelte-quill#readme",
+  "bugs": {
+    "url": "https://github.com/rgglez/svelte-quill/issues"
+  },
+  "author": "Rodolfo González González",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "quill": "^2.0.3",
+    "svelte": "^5.56.7"
+  }
+}

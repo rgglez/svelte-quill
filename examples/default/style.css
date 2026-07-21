@@ -1,0 +1,23 @@
+:root {
+	font-family: system-ui, sans-serif;
+	color: #1f2937;
+	background: #f8fafc;
+}
+
+body {
+	margin: 0;
+}
+
+#app {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+pre {
+	padding: 1rem;
+	overflow-wrap: anywhere;
+	white-space: pre-wrap;
+	background: #e2e8f0;
+	border-radius: 0.375rem;
+}
